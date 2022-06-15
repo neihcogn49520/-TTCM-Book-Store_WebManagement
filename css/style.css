@@ -514,7 +514,7 @@ ol {
 }
 
 .inner-header .nav-right li.heart-icon a {
-    color: #555;
+    color: #E03E3E;
     position: relative;
     display: inline-block;
 }
@@ -593,6 +593,7 @@ ol {
 
 .inner-header .nav-right li.cart-icon .cart-hover .select-items table tr td.si-pic img {
     border: 1px solid #ebebeb;
+    width: 70px;
 }
 
 .inner-header .nav-right li.cart-icon .cart-hover .select-items table tr td.si-text {
@@ -981,7 +982,7 @@ ol {
 -----------------------*/
 
 .banner-section {
-    padding: 80px 50px;
+    padding: 50px 50px;
 }
 
 .single-banner {
@@ -1042,14 +1043,379 @@ ol {
 }
 
 
+/*--------------------
+flashsale section
+----------------------*/
+
+#flashsale-slider .product-name-no-ellipsis,
+#flashsale-page .product-name-no-ellipsis,
+#flashsale-page-mobile .product-name-no-ellipsis {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+}
+
+#flashsale-slider .flashsale-item {
+    max-width: 18em;
+    margin-right: 0.5em !important;
+    margin-bottom: 10px;
+}
+
+.flashsale-item .flashsale-item-image {
+    max-height: 14em;
+    width: auto;
+    /*margin: 0.8em;*/
+}
+
+.flashsale-item .product-image {
+    position: relative;
+    /*padding: 0.5em;*/
+}
+
+.flashsale-item .outstock-container {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flashsale-item .ma-box-content {
+    padding: 0 0 10px 0;
+}
+
+.flashsale-item .ma-box-content .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flashsale-item .product-name-no-ellipsis {
+    display: block;
+}
+
+.flashsale-item .item-inner {
+    padding: 5px;
+}
+
+.flashsale-item:hover {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: -webkit-box-shadow .1s ease, -webkit-transform .1s ease;
+    /*transition: -webkit-box-shadow .1s ease,-webkit-transform .1s ease;*/
+    transition: box-shadow .1s ease, transform .1s ease;
+    transition: box-shadow .1s ease, transform .1s ease, -webkit-box-shadow .1s ease, -webkit-transform .1s ease;
+}
+
+.flashsale-item .product.images-container {
+    text-align: center;
+}
+
+.flashsale-item .progress {
+    border-radius: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgba(210, 33, 33, 0.4);
+    background-image: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    height: 18px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.flashsale-item .progress-value {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.flashsale-item .progress-bar {
+    background-image: linear-gradient(to bottom, #D22121 0%, #D22121 100%);
+}
+
+.flashsale-item .flashsale-price-old {
+    color: #888888;
+    text-decoration: line-through;
+    font-size: 1.1em;
+}
+
+.flashsale-item .flashsale-price-special {
+    font-size: 1.35em;
+    color: #F7941E;
+    font-weight: 600;
+}
+
+#flashsale-slider .flashsale-countdown,
+#flashsale-page .flashsale-countdown {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 5px;
+    /*width: 150px;*/
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+#flashsale-slider .flashsale-countdown-number,
+#flashsale-page .flashsale-countdown-number {
+    padding: 4px 8px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.flashsale-product-info .flashsale-countdown-number {
+    padding: 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.flashsale-product-info span:nth-child(3),
+.flashsale-product-info span:nth-child(5) {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.flashsale-page-loading-icon {
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.flashsale-header-title {
+    font-weight: 550;
+    margin-left: 10px;
+    font-size: 1.31em;
+    color: #1F1D1D;
+}
+
+.flashsale-header {
+    background-color: #FCDAB0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.flashsale-header a {
+    display: flex;
+    align-items: center;
+}
+
+.flashsale-header .split {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-left: 2px solid #646464;
+    height: 20px;
+}
+
+#flashsale-slider .bx-viewport {
+    height: 345px !important;
+}
+
+
+/*
+    Slider
+*/
+
+#flashsale-slider {
+    border: 1px solid #e6e6e6;
+    background: white;
+    margin-top: 10px;
+    display: none;
+    padding-bottom: 10px;
+}
+
+#flashsale-slider .swiper-container-flashsale {}
+
+#flashsale-slider .fhs-full-p {
+    background: white;
+}
+
+#flashsale-slider .bx-prev {
+    margin-left: -15px;
+}
+
+#flashsale-slider .flashsale-head {
+    min-height: 45px;
+    border-bottom: 2px solid #d22121 !important;
+    width: 100% !important;
+}
+
+#flashsale-slider .flashsale-body {
+    margin: 10px 0px 5px 0px;
+    min-height: 400px;
+}
+
+#flashsale-slider .flashsale-label {
+    margin-top: 5px;
+}
+
+#flashsale-slider .flashsale-label span:first-child {
+    float: left;
+    background-color: #d22121;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+#flashsale-slider .flashsale-label span:nth-of-type(2) {
+    border-top: 40px solid transparent;
+    border-left: 30px solid #d22121;
+    float: left;
+    margin-top: 5px;
+}
+
+#flashsale-slider .flashsale-periods {
+    float: right;
+    background-color: #d22121;
+    padding: 2px 0px 2px 5px;
+    margin-right: 5px;
+}
+
+#flashsale-slider .flashsale-periods .flashsale-countdown-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 4px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+#flashsale-slider .flashsale-countdown-label {
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 3px;
+}
+
+
+/*
+    Page
+*/
+
+#flashsale-top-banner {}
+
+#flashsale-page {
+    margin-top: 10px;
+}
+
+.flashsale-page-countdown-label {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #000;
+    margin-right: 10px;
+}
+
+#flashsale-page .flashsale-page-periods {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 70px;
+}
+
+#flashsale-page .flashsale-page-period {
+    padding: 0px;
+    height: 40px;
+}
+
+#flashsale-page .flashsale-page-period-label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#flashsale-page .flashsale-page-period-active .time,
+#flashsale-page .flashsale-page-period-active .status {
+    color: #D22121 !important;
+}
+
+#flashsale-page .flashsale-page-period .time {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+#flashsale-page .flashsale-page-period .status {
+    color: #000;
+    font-size: 1.1em;
+}
+
+#flashsale-page .flashsale-page-period-label span:first-child,
+#flashsale-page .flashsale-page-period-label span:nth-of-type(2),
+#flashsale-page .flashsale-page-period-label span:nth-of-type(3) {
+    line-height: 30px;
+}
+
+#flashsale-page .flashsale-page-period-label span:nth-of-type(4) {
+    float: left;
+}
+
+#flashsale-page .flashsale-page-period-active .flashsale-page-period-label span:first-child,
+#flashsale-page .flashsale-page-period-active .flashsale-page-period-label span:nth-of-type(2),
+#flashsale-page .flashsale-page-period-active .flashsale-page-period-label span:nth-of-type(3) {
+    background-color: #d22121;
+    color: white;
+}
+
+#flashsale-page .flashsale-page-period-active .flashsale-page-period-label span:nth-of-type(4) {
+    border-top: 40px solid transparent;
+    border-left: 30px solid #d22121;
+}
+
+#flashsale-page .col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#flashsale-page .col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+
+/** end flashsale**/
+
+
 /*---------------------
-  Women Banner Section
+  vietnam-book Banner Section
 -----------------------*/
 
-.women-banner {
+.vietnam-book-banner {
     padding-right: 65px;
     padding-left: 65px;
-    padding-top: 0;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
 
@@ -1332,10 +1698,10 @@ ol {
 
 
 /*---------------------
-  Man Banner
+  foreign-book Banner
 -----------------------*/
 
-.man-banner {
+.foreign-book-banner {
     padding-right: 65px;
     padding-left: 65px;
     padding-top: 80px;
@@ -1357,6 +1723,7 @@ ol {
     height: 320px;
     text-align: center;
     position: relative;
+    margin: 0 20px;
 }
 
 .instagram-photo .insta-item:hover:before {
@@ -3993,7 +4360,7 @@ ol {
     .single-banner {
         margin-bottom: 30px;
     }
-    .women-banner {
+    .vietnam-book-banner {
         padding-right: 0;
         padding-left: 0;
     }
@@ -4008,7 +4375,7 @@ ol {
     .product-slider .owl-nav button[type=button] {
         display: none;
     }
-    .man-banner {
+    .foreign-book-banner {
         padding-right: 0;
         padding-left: 0;
     }
