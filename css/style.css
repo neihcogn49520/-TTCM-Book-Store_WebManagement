@@ -1715,15 +1715,16 @@ flashsale section
 
 .instagram-photo {
     overflow: hidden;
+    margin-right: -45px;
 }
 
 .instagram-photo .insta-item {
     float: left;
-    width: 16.66%;
-    height: 320px;
+    width: 18%;
+    height: 300px;
     text-align: center;
     position: relative;
-    margin: 0 20px;
+    margin: 30px 10px 80px 10px;
 }
 
 .instagram-photo .insta-item:hover:before {
