@@ -48,6 +48,10 @@
                 </div>
                 <div class="ht-right">
                     <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Tài khoản của tôi</a></li>
+                        <li><a href="#">Đăng xuất</a></li>
+                    </ul>
                     <div class="lan-selector">
                         <select class="language_drop" name="countries" id="countries" style="width: 300px">
                                 <option value="yt" data-image="img/vietnam.png" data-imagecss="flag yt"
@@ -145,12 +149,11 @@
                                         <h5>279.000 VNĐ</h5>
                                     </div>
                                     <div class="select-button">
-                                        <a href="#" class="primary-btn view-card">VIEW CARD</a>
-                                        <a href="#" class="primary-btn checkout-btn">CHECK OUT</a>
+                                        <a href="./shopping-cart.html" class="primary-btn view-card">VIEW CARD</a>
+                                        <a href="./check-out.html" class="primary-btn checkout-btn">CHECK OUT</a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="cart-price">$150.00</li>
                         </ul>
                     </div>
                 </div>
@@ -182,19 +185,18 @@
                                 <li><a href="#">Sách nước ngoài</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Bài viết</a></li>
-                        <li><a href="./contact.html">Liên hệ</a></li>
-                        <!-- <li>
-                            <a href="#">Pages</a>
+                        <li><a href="./blog.html">Bài viết</a>
                             <ul class="dropdown">
-                                <li><a href="./blog-details.html">Bài viết</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
-                                <li><a href="./faq.html">Faq</a></li>
-                                <li><a href="./register.html">Register</a></li>
-                                <li><a href="./login.html">Login</a></li>
+                                <li><a href="#">Bài viết</a></li>
+                                <li><a href="#">Chi tiết bài viết</a></li>
                             </ul>
-                        </li> -->
+                        </li>
+                        <li><a href="#">Liên hệ</a>
+                            <ul class="dropdown">
+                                <li><a href="./contact.html">Liên hệ</a></li>
+                                <li><a href="./faq.html">Faq</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
                 <div id="mobile-menu-wrap"></div>
@@ -303,13 +305,13 @@
         </div>
         <div class="col-sms-3 col-sm-3 col-md-3">
             <div>
-                <a href="#"><img src="https://cdn0.fahasa.com/media/wysiwyg/Duy-VHDT/DoChoi/Thang5/Icon_DoChoi_Hot.png" class="center"></a>
+                <a href="#"><img src="img/icon/i-danhmuc-trongnuoc.gif" class="center"></a>
             </div>
             <div class="cms-icon-menu-item-name">Sách <br>trong nước</div>
         </div>
         <div class="col-sms-3 col-sm-3 col-md-3">
             <div>
-                <a href="#"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/Icon_VanPhongPham_Hot_1.png" class="center"></a>
+                <a href="#"><img src="img/icon/i-danhmuc-nuocngoai.gif" class="center"></a>
             </div>
             <div class="cms-icon-menu-item-name">Sách <br> nước ngoài</div>
         </div>
@@ -321,9 +323,9 @@
         </div>
         <div class="col-sms-3 col-sm-3 col-md-3">
             <div>
-                <a href="#"><img src="https://cdn0.fahasa.com/media/wysiwyg/icon-menu/Icon_MangaCommic.png" class="center"></a>
+                <a href="#"><img src="img/icon/i-danhmuc-vpp.png" class="center"></a>
             </div>
-            <div class="cms-icon-menu-item-name">Manga - Comic</div>
+            <div class="cms-icon-menu-item-name">Văn phòng phẩm</div>
         </div>
         <div class="col-sms-3 col-sm-3 col-md-3">
             <div>
@@ -621,14 +623,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="bx-controls bx-has-controls-direction bx-has-pager">
+                    <!-- <div class="bx-controls bx-has-controls-direction bx-has-pager">
                         <div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div>
                         <div class="bx-pager bx-default-pager">
                             <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div>
                             <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div>
                             <div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="tabs-xem-them xem-them-item-aaa">
                     <a href="flashsale">Xem Thêm</a>
@@ -931,34 +933,48 @@
 
     <!-- Instagram Section Begin -->
     <div class="instagram-photo">
-        <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-1.png">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">BookStore_Sale</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-2.png">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">BookStore_Sale</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-3.gif">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">BookStore_Sale</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-4.gif">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">BookStore_Sale</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-5.gif">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">BookStore_Sale</a></h5>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-13">
+                    <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-1.png">
+                        <div class="inside-text">
+                            <i class="ti-instagram"></i>
+                            <h5><a href="#">BookStore_Sale</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-13">
+                    <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-2.png">
+                        <div class="inside-text">
+                            <i class="ti-instagram"></i>
+                            <h5><a href="#">BookStore_Sale</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-13">
+                    <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-3.gif">
+                        <div class="inside-text">
+                            <i class="ti-instagram"></i>
+                            <h5><a href="#">BookStore_Sale</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-13">
+                    <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-4.gif">
+                        <div class="inside-text">
+                            <i class="ti-instagram"></i>
+                            <h5><a href="#">BookStore_Sale</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-13">
+                    <div class="insta-item set-bg" data-setbg="img/ig-sale/sale-5.gif">
+                        <div class="inside-text">
+                            <i class="ti-instagram"></i>
+                            <h5><a href="#">BookStore_Sale</a></h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1152,7 +1168,7 @@
                             </div>
                             <div class="pi-text">
                                 <a href="#">
-                                    <h5>Sổ còng A5 96 tranng(không kèm bìa)</h5>
+                                    <h5>Sổ còng A5 96 tranng (không kèm bìa)</h5>
                                 </a>
                                 <div class="product-price">50.000đ</div>
                             </div>
@@ -1329,7 +1345,7 @@
     <!-- Latest Blog Section End -->
 
     <!-- Partner Logo Section Begin -->
-    <div class="partner-logo">
+    <!-- <div class="partner-logo">
         <div class="container">
             <div class="logo-carousel owl-carousel">
                 <div class="logo-item">
@@ -1359,7 +1375,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Partner Logo Section End -->
 
     <!-- Footer Section Begin -->
@@ -1418,6 +1434,15 @@
                             <input type="text" placeholder="Enter Your Mail" />
                             <button type="button">Đăng ký</button>
                         </form>
+                        <div class="footer-ipay">
+                            <a href="#"><img src="img/icon/i-payment-momo.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-zalo.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-atm.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-napas.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-paypal.png" alt=""></a>
+                            <a href="#"><img src="img/icon//i-payment-visa.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-mastercard.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1437,9 +1462,9 @@
                             <a href="https://colorlib.com" target="_blank">NgocHien</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
-                        <div class="payment-pic">
+                        <!-- <div class="payment-pic">
                             <img src="img/payment-method.png" alt="" />
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -1458,6 +1483,12 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+</body>
+
+</html>ript src="js/jquery.dd.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

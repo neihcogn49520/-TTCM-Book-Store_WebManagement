@@ -2423,6 +2423,11 @@ pre code {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .col-lg-13 {
+        -ms-flex: 0 0 18.18%;
+        flex: 0 0 18.18%;
+        max-width: 18.18%;
+    }
     .order-lg-first {
         -ms-flex-order: -1;
         order: -1;
