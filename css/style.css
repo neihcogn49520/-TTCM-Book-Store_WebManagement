@@ -387,6 +387,7 @@ ol {
 
 .header-top .ht-right {
     float: right;
+    display: flex;
 }
 
 .header-top .ht-right .login-panel {
@@ -402,6 +403,54 @@ ol {
 
 .header-top .ht-right .login-panel i {
     margin-right: 8px;
+}
+
+.header-top .ht-right .login-depart:hover .depart-hover {
+    top: 52px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+}
+
+.header-top .ht-right .login-depart .depart-hover {
+    float: right5;
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+    background: #fff;
+    top: 62px;
+    opacity: 0;
+    visibility: hidden;
+    padding-bottom: 29px;
+    -webkit-box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 13px 32px rgba(51, 51, 51, 0.1);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header-top .ht-right .login-depart .depart-hover li {
+    list-style: none;
+}
+
+.header-top .ht-right .login-depart .depart-hover li.active a {
+    color: #0aa1dd;
+}
+
+.header-top .ht-right .login-depart .depart-hover li a {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-right: 30px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header-top .ht-right .login-depart .depart-hover li a:hover {
+    color: #0aa1dd;
 }
 
 .header-top .ht-right .lan-selector {
@@ -2147,6 +2196,7 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0rem 5rem;
     transition: all 0.2s 0.7s;
     overflow: hidden;
     grid-column: 1 / 2;
@@ -2164,7 +2214,7 @@ form.sign-in-form {
 
 .title {
     font-size: 2.2rem;
-    color: #444;
+    color: #2155cd;
     margin-bottom: 10px;
 }
 
@@ -2230,8 +2280,8 @@ form.sign-in-form {
 }
 
 .social-icon:hover {
-    color: #4481eb;
-    border-color: #4481eb;
+    color: #0aa1dd;
+    border-color: #0aa1dd;
 }
 
 .btn {
@@ -2271,7 +2321,7 @@ form.sign-in-form {
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
-    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    background-image: linear-gradient(-45deg, #0aa1dd 0%, #0aa1dd 100%);
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
@@ -2309,12 +2359,14 @@ form.sign-in-form {
 }
 
 .panel h3 {
+    color: #fff;
     font-weight: 600;
     line-height: 1;
     font-size: 1.5rem;
 }
 
 .panel p {
+    color: #f0f0f0;
     font-size: 0.95rem;
     padding: 0.7rem 0;
 }
@@ -2478,7 +2530,7 @@ form.sign-in-form {
         bottom: 72%;
         left: 50%;
     }
-    .container-login-login.sign-up-mode:before {
+    .container-login.sign-up-mode:before {
         bottom: 28%;
         left: 50%;
     }
@@ -3133,7 +3185,7 @@ form.sign-in-form {
 }
 
 .product-details .quantity .primary-btn.pd-cart {
-    padding: 14px 70px 10px;
+    padding: 14px 50px 10px;
 }
 
 .product-details .pd-tags {
@@ -3496,6 +3548,10 @@ form.sign-in-form {
 
 .cart-table table tr td.cart-pic {
     width: 21%;
+}
+
+.cart-table table tr td.cart-pic img {
+    width: 50%;
 }
 
 .cart-table table tr td.cart-title {
@@ -4730,8 +4786,8 @@ form.sign-in-form {
 }
 
 @media only screen and (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
+    .container-login {
+        max-width: 100%;
     }
 }
 

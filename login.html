@@ -7,11 +7,13 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fashi | Template</title>
+    <title>Book Store</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -27,21 +29,21 @@
 <body>
     <div class="container-login">
         <div class="forms-container">
-            <div class="signin">
+            <div class="signin-signup">
                 <form action="#" class="sign-in-form">
                     <h2 class="title">Đăng nhập</h2>
                     <div class="input-field">
-                        <i class="fa fa-user"></i>
-                        <input type="text" placeholder="Tên đăng nhập" />
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
                     </div>
                     <div class="input-field">
-                        <i class="fa fa-lock"></i>
-                        <input type="password" placeholder="Mật khẩu" />
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
                     </div>
-                    <input type="submit" value="Đăng nhập" class="btn solid" />
+                    <input type="submit" value="Login" class="btn solid" />
                 </form>
                 <form action="#" class="sign-up-form">
-                    <h2 class="title">Sign up</h2>
+                    <h2 class="title">Đăng ký</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
                         <input type="text" placeholder="Username" />
@@ -62,28 +64,25 @@
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
-                    <h3>Chào bạn đến với BookStore</h3>
+                    <h3>Chào mừng đến với Book Store</h3>
                     <p>
-                        Tạo tài khoản của riêng bạn để mua sắm dễ dàng hơn nhé
+                        Đăng ký tài khoản để dễ dàng mua những cuốn sách bạn thích nhé!!
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
-                        Sign up
-                    </button>
+              Sign up
+            </button>
                 </div>
-                <button class="btn transparent" id="sign-up-btn">
-                    Sign up
-                </button>
                 <img src="img/about-img.png" class="image" alt="" />
             </div>
             <div class="panel right-panel">
                 <div class="content">
-                    <h3>Bạn đã có tài khoản</h3>
+                    <h3>Đã có tài khoản</h3>
                     <p>
-                        Đăng nhập và mua hàng cùng chúng tôi nào
+                        Đăng nhập để khám phá những item mới nhất nhé!!
                     </p>
                     <button class="btn transparent" id="sign-in-btn">
-                        Sign in
-                    </button>
+              Sign in
+            </button>
                 </div>
                 <img src="img/about-img.png" class="image" alt="" />
             </div>
@@ -101,7 +100,6 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="app.js"></script>
 </body>
 
 </html>

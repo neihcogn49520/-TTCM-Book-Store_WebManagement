@@ -262,3 +262,20 @@
     });
 
 })(jQuery);
+
+const sign_in_btn = document.querySelector("#sign-in-btn");
+const sign_up_btn = document.querySelector("#sign-up-btn");
+const container = document.querySelector(".container-login");
+const login = document.querySelector(".btn");
+
+login.addEventListener("click", () => {
+    container.location.href = "index.html";
+});
+
+sign_up_btn.addEventListener("click", () => {
+    container.classList.add("sign-up-mode");
+});
+
+sign_in_btn.addEventListener("click", () => {
+    container.classList.remove("sign-up-mode");
+});

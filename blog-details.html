@@ -7,7 +7,7 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fashi | Template</title>
+    <title>Book Store</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -36,29 +36,31 @@
             <div class="container">
                 <div class="ht-left">
                     <div class="mail-service">
-                        <i class=" fa fa-envelope"></i>
-                        hello.colorlib@gmail.com
+                        <i class="fa fa-envelope"></i> ngochien@gmail.com
                     </div>
                     <div class="phone-service">
-                        <i class=" fa fa-phone"></i>
-                        +65 11.188.888
+                        <i class="fa fa-phone"></i> +84 8.49.818.658
                     </div>
                 </div>
                 <div class="ht-right">
-                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
                     <div class="lan-selector">
-                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
-                            <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
-                                data-title="Bangladesh">German </option>
-                        </select>
+                        <select class="language_drop" name="countries" id="countries" style="width: 300px">
+                                <option value="yt" data-image="img/vietnam.png" data-imagecss="flag yt"
+                                    data-title="Vietnam">
+                                    VietNam
+                                </option>
+                                <option value="yu" data-image="img/flag-1.jpg" data-imagecss="flag yu"
+                                    data-title="English">
+                                    English
+                                </option>
+                            </select>
                     </div>
-                    <div class="top-social">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-linkedin"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
+                    <div class="login-depart">
+                        <a href="./login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                        <ul class="depart-hover">
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li><a href="#">Đăng xuất</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -69,27 +71,33 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="./index.html">
-                                <img src="img/logo.png" alt="">
+                                <h1 class="fw-bold text-primary m-0">
+                                    B<span class="text-secondary">ook</span>S<span class="text-secondary">tore</span>
+                                </h1>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="advanced-search">
-                            <button type="button" class="category-btn">All Categories</button>
-                            <form action="#" class="input-group">
-                                <input type="text" placeholder="What do you need?">
+                            <button type="button" class="category-btn">
+                                    All Categories
+                                </button>
+                            <div class="input-group">
+                                <input type="text" placeholder="Bạn tìm sách gì?" />
                                 <button type="button"><i class="ti-search"></i></button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 text-right col-md-3">
                         <ul class="nav-right">
-                            <li class="heart-icon"><a href="#">
+                            <li class="heart-icon">
+                                <a href="#">
                                     <i class="icon_heart_alt"></i>
                                     <span>1</span>
                                 </a>
                             </li>
-                            <li class="cart-icon"><a href="#">
+                            <li class="cart-icon">
+                                <a href="#">
                                     <i class="icon_bag_alt"></i>
                                     <span>3</span>
                                 </a>
@@ -98,27 +106,31 @@
                                         <table>
                                             <tbody>
                                                 <tr>
-                                                    <td class="si-pic"><img src="img/select-product-1.jpg" alt=""></td>
+                                                    <td class="si-pic">
+                                                        <img src="img/book-cover/vanhocvn/book-vn-3.png" alt="" />
+                                                    </td>
                                                     <td class="si-text">
                                                         <div class="product-selected">
-                                                            <p>$60.00 x 1</p>
-                                                            <h6>Kabino Bedside Table</h6>
+                                                            <p>120.000 x 1</p>
+                                                            <h6>Dế mèn phiêu lưu ký</h6>
                                                         </div>
                                                     </td>
                                                     <td class="si-close">
-                                                        <i class="ti-close"></i>
+                                                        <i class="ti-trash" style="color: #E03E3E;"></i>
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="si-pic"><img src="img/select-product-2.jpg" alt=""></td>
+                                                    <td class="si-pic">
+                                                        <img src="img/book-cover/nuocngoai/book-cover-1.jpg" alt="" />
+                                                    </td>
                                                     <td class="si-text">
                                                         <div class="product-selected">
-                                                            <p>$60.00 x 1</p>
-                                                            <h6>Kabino Bedside Table</h6>
+                                                            <p>159.000 x 1</p>
+                                                            <h6>Protect your freedom</h6>
                                                         </div>
                                                     </td>
                                                     <td class="si-close">
-                                                        <i class="ti-close"></i>
+                                                        <i class="ti-trash" style="color: #E03E3E;"></i>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -126,15 +138,14 @@
                                     </div>
                                     <div class="select-total">
                                         <span>total:</span>
-                                        <h5>$120.00</h5>
+                                        <h5>279.000 VNĐ</h5>
                                     </div>
                                     <div class="select-button">
-                                        <a href="#" class="primary-btn view-card">VIEW CARD</a>
-                                        <a href="#" class="primary-btn checkout-btn">CHECK OUT</a>
+                                        <a href="./shopping-cart.html" class="primary-btn view-card">VIEW CARD</a>
+                                        <a href="./check-out.html" class="primary-btn checkout-btn">CHECK OUT</a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="cart-price">$150.00</li>
                         </ul>
                     </div>
                 </div>
@@ -145,40 +156,37 @@
                 <div class="nav-depart">
                     <div class="depart-btn">
                         <i class="ti-menu"></i>
-                        <span>All departments</span>
+                        <span>Tất cả sản phẩm</span>
                         <ul class="depart-hover">
-                            <li class="active"><a href="#">Women’s Clothing</a></li>
-                            <li><a href="#">Men’s Clothing</a></li>
-                            <li><a href="#">Underwear</a></li>
-                            <li><a href="#">Kid's Clothing</a></li>
-                            <li><a href="#">Brand Fashion</a></li>
-                            <li><a href="#">Accessories/Shoes</a></li>
-                            <li><a href="#">Luxury Brands</a></li>
-                            <li><a href="#">Brand Outdoor Apparel</a></li>
+                            <li class="active"><a href="#">Sách trong nước</a></li>
+                            <li><a href="#">Sách nước ngoài</a></li>
+                            <li><a href="#">Văn phòng phẩm</a></li>
+                            <li><a href="#">Đồ lưu niệm</a></li>
+                            <li><a href="#">Sách phân loại theo NXB</a></li>
                         </ul>
                     </div>
                 </div>
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                        <li><a href="./index.html">Home</a></li>
+                        <li class="active"><a href="./index.html">Trang chủ</a></li>
                         <li><a href="./shop.html">Shop</a></li>
-                        <li><a href="#">Collection</a>
+                        <li>
+                            <a href="#">Danh mục</a>
                             <ul class="dropdown">
-                                <li><a href="#">Men's</a></li>
-                                <li><a href="#">Women's</a></li>
-                                <li><a href="#">Kid's</a></li>
+                                <li><a href="#">Sách trong nước</a></li>
+                                <li><a href="#">Sách nước ngoài</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./check-out.html">Contact</a></li>
-                        <li><a href="#">Pages</a>
+                        <li><a href="#">Bài viết</a>
                             <ul class="dropdown">
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
+                                <li><a href="./blog.html">Bài viết</a></li>
+                                <li><a href="./blog-details.html">Chi tiết bài viết</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Liên hệ</a>
+                            <ul class="dropdown">
+                                <li><a href="./contact.html">Liên hệ</a></li>
                                 <li><a href="./faq.html">Faq</a></li>
-                                <li><a href="./register.html">Register</a></li>
-                                <li><a href="./login.html">Login</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -196,62 +204,54 @@
                 <div class="col-lg-12">
                     <div class="blog-details-inner">
                         <div class="blog-detail-title">
-                            <h2>The Personality Trait That Makes People Happier</h2>
-                            <p>travel <span>- May 19, 2019</span></p>
+                            <h2>Sách là gì? Phương pháp đọc sách hiệu quả nhất</h2>
+                            <p>Sách <span>- 20 Thg 5 2022</span></p>
                         </div>
                         <div class="blog-large-pic">
-                            <img src="img/blog/blog-detail.jpg" alt="">
+                            <img src="img/blog/b2.jpg" alt="">
                         </div>
                         <div class="blog-detail-desc">
-                            <p>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit
-                                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
-                            </p>
+                            <p>Đọc sách là một hình thức tập thể dục cho não bộ, giống như việc chúng ta chơi thể thao hay chạy bộ vậy. Sau một quá trình rèn luyện, chúng ta sẽ có được cơ thể khỏe mạnh, săn chắc và tinh thần thoải mái hơn. Bộ não được vận
+                                động thường xuyên sẽ sản sinh ra nhiều ý tưởng sáng tạo, được trau dồi vốn từ và kỹ năng diễn đạt, đồng thời nâng cao khả năng tư duy, phân tích.<br><br>Nhưng thực ra, không phải ai trong chúng ta cũng biết cách đọc hiệu
+                                quả. Thẩm thấu trọn vẹn một cuốn sách là việc không hề đơn giản. Bạn cần tìm ra phương pháp đọc đúng đắn và phù hợp với bản thân. Hãy cùng chúng mình tìm hiểu 5 tips sau đây để sớm tìm được phương pháp đọc hiệu quả nhất
+                                cho bạn nhé! </p>
                         </div>
                         <div class="blog-quote">
-                            <p>“ Technology is nothing. What's important is that you have a faith in people, that
-                                they're basically good and smart, and if you give them tools, they'll do wonderful
-                                things with them.” <span>- Steven Jobs</span></p>
+                            <p>“Một cuốn sách hay cho ta một điều tốt, một người bạn tốt cho ta một điều hay.” <span>- Gustavơ Lebon</span></p>
                         </div>
                         <div class="blog-more">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <img src="img/blog/blog-detail-1.jpg" alt="">
+                                    <img src="img/blog/blog-detail-1.png" alt="">
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src="img/blog/blog-detail-2.jpg" alt="">
+                                    <img src="img/blog/blog-detail-3.png" alt="">
                                 </div>
                                 <div class="col-sm-4">
-                                    <img src="img/blog/blog-detail-3.jpg" alt="">
+                                    <img src="img/blog/blog-detail-4.png" alt="">
                                 </div>
                             </div>
                         </div>
-                        <p>Sum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        <p>- Hãy dành thời gian để đọc review, lắng nghe trải nghiệm của những người đã hoàn thiện cuốn sách đó. Việc làm này sẽ giúp bạn nắm được nội dung khái quát của sách và phần nào xác định được nó có phù hợp với mình hay không. <br><br></p>-
+                        Hãy bắt đầu tập thói quen đọc chủ động. Luôn cầm sẵn một chiếc bút chì để có thể vừa đọc, vừa highlight. Bạn cũng có thể sử dụng một số kí hiệu riêng biệt cho những đoạn có nội dung khác nhau.<br><br> - Ở đâu cũng được! Miễn là
+                        không làm bạn suy nghĩ tản mát. Tuy nhiên, một môi trường tạo điều kiện tốt để bạn tập trung tối đa vào cuốn sách sẽ là nơi lý tưởng nhất. Môi trường đọc sách không cần phải yên tĩnh tuyệt đối, nhưng càng ít vật chuyển động thì
+                        càng tốt. Một thức uống yêu thích hay không gian với nhiệt độ phù hợp cũng sẽ mang đến cho bạn sự hứng thú đối với việc đọc sách hơn. Hay nhiều bạn trẻ hiện nay thường ghé các quán cafe sách để đắm chìm vào trong việc đọc, cũng
+                        là một ý hay.
                         <div class="tag-share">
                             <div class="details-tag">
                                 <ul>
                                     <li><i class="fa fa-tags"></i></li>
-                                    <li>Travel</li>
-                                    <li>Beauty</li>
-                                    <li>Fashion</li>
+                                    <li>Sách</li>
+                                    <li>thói quen</li>
+                                    <li>phương pháp đọc sách</li>
                                 </ul>
                             </div>
                             <div class="blog-share">
-                                <span>Share:</span>
+                                <span>Chia sẻ:</span>
                                 <div class="social-links">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
                                     <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -261,54 +261,53 @@
                                     <a href="#" class="prev-blog">
                                         <div class="pb-pic">
                                             <i class="ti-arrow-left"></i>
-                                            <img src="img/blog/prev-blog.png" alt="">
+                                            <img src="img/blog/blog-1.png" alt="">
                                         </div>
                                         <div class="pb-text">
-                                            <span>Previous Post:</span>
-                                            <h5>The Personality Trait That Makes People Happier</h5>
+                                            <span>Bài viết trước đó:</span>
+                                            <h5>Những Quyển Sách Hay Nên Đọc Trong Đời</h5>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-5 offset-lg-2 col-md-6">
                                     <a href="#" class="next-blog">
                                         <div class="nb-pic">
-                                            <img src="img/blog/next-blog.png" alt="">
+                                            <img src="img/blog/blog-3.png" alt="">
                                             <i class="ti-arrow-right"></i>
                                         </div>
                                         <div class="nb-text">
-                                            <span>Next Post:</span>
-                                            <h5>The Personality Trait That Makes People Happier</h5>
+                                            <span>Bài viết tiếp theo:</span>
+                                            <h5>Làm thế nào để duy trì thói quen đọc sách?</h5>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        <h4 style="padding-bottom: 10px; font-weight: 700; color: #292f3b;">Viết bởi:</h4>
                         <div class="posted-by">
                             <div class="pb-pic">
                                 <img src="img/blog/post-by.png" alt="">
                             </div>
                             <div class="pb-text">
                                 <a href="#">
-                                    <h5>Shane Lynch</h5>
+                                    <h5>Nguyễn Ngọc</h5>
                                 </a>
-                                <p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum bore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    amodo</p>
+                                <p>Sách là gì? Những cách đọc đọc sách hiệu quả nhất sẽ gồm những phương pháp nào? Mời bạn đọc cùng theo dõi bài viết dưới đây! Cảm ơn bạn đã đọc bào viết này.</p>
                             </div>
                         </div>
                         <div class="leave-comment">
-                            <h4>Leave A Comment</h4>
+                            <h4>Để lại bình luận</h4>
                             <form action="#" class="comment-form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Name">
+                                        <input type="text" placeholder="Họ tên">
                                     </div>
                                     <div class="col-lg-6">
                                         <input type="text" placeholder="Email">
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea placeholder="Messages"></textarea>
-                                        <button type="submit" class="site-btn">Send message</button>
+                                        <textarea placeholder="Bình luận"></textarea>
+                                        <button type="submit" class="site-btn">Gửi bình luận</button>
                                     </div>
                                 </div>
                             </form>
@@ -320,40 +319,6 @@
     </section>
     <!-- Blog Details Section End -->
 
-    <!-- Partner Logo Section Begin -->
-    <div class="partner-logo">
-        <div class="container">
-            <div class="logo-carousel owl-carousel">
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-1.png" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-2.png" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-3.png" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-4.png" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-5.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Partner Logo Section End -->
-
     <!-- Footer Section Begin -->
     <footer class="footer-section">
         <div class="container">
@@ -361,12 +326,14 @@
                 <div class="col-lg-3">
                     <div class="footer-left">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            <h1 class="fw-bold text-primary m-0">
+                                B<span class="text-secondary">ook</span>S<span class="text-secondary">tore</span>
+                            </h1>
                         </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello.colorlib@gmail.com</li>
+                            <li>Địa chỉ: 18 Hoàng Hữu Nam, p. Long Thanh Mỹ, Tp. Thủ Đức, Tp. Hồ Chí Minh</li>
+                            <li>SĐT: +84.849.818.658</li>
+                            <li>Email: ngochien@gmail.com</li>
                         </ul>
                         <div class="footer-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -378,34 +345,45 @@
                 </div>
                 <div class="col-lg-2 offset-lg-1">
                     <div class="footer-widget">
-                        <h5>Information</h5>
+                        <h5>Thông tin</h5>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Checkout</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Serivius</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Thủ tục thanh toán</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Dịch vụ</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="footer-widget">
-                        <h5>My Account</h5>
+                        <h5>Tài khoản</h5>
                         <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Tài khoản của bạn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Giỏ hàng</a></li>
                             <li><a href="#">Shop</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="newslatter-item">
-                        <h5>Join Our Newsletter Now</h5>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <h5>Nhận thông báo mới</h5>
+                        <p>
+                            Đăng ký với email của bạn để cập nhật những ưu đãi mới hấp dẫn nhé
+                        </p>
                         <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="Enter Your Mail">
-                            <button type="button">Subscribe</button>
+                            <input type="text" placeholder="Enter Your Mail" />
+                            <button type="button">Đăng ký</button>
                         </form>
+                        <div class="footer-ipay">
+                            <a href="#"><img src="img/icon/i-payment-momo.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-zalo.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-atm.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-napas.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-paypal.png" alt=""></a>
+                            <a href="#"><img src="img/icon//i-payment-visa.png" alt=""></a>
+                            <a href="#"><img src="img/icon/i-payment-mastercard.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -416,12 +394,18 @@
                     <div class="col-lg-12">
                         <div class="copyright-text">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            All rights reserved
+                            <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                            <a href="https://colorlib.com" target="_blank">NgocHien</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
-                        <div class="payment-pic">
-                            <img src="img/payment-method.png" alt="">
-                        </div>
+                        <!-- <div class="payment-pic">
+                            <img src="img/payment-method.png" alt="" />
+                        </div> -->
                     </div>
                 </div>
             </div>
